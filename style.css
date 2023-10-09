@@ -37,3 +37,7 @@ header {
     margin-left: 35px;
     transition: .3s;
 }
+
+.navbar a:hover {
+    color: aquamarine;
+}
