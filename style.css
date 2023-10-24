@@ -27,6 +27,7 @@ header {
     color: yellowgreen;
     text-decoration: none;
     font-weight: 600;
+    float: left;
 }
 
 .navbar a {
@@ -40,4 +41,19 @@ header {
 
 .navbar a:hover {
     color: aquamarine;
+}
+
+.navbar {
+    float: right;
+}
+
+.home {
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
 }
