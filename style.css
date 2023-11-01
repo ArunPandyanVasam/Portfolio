@@ -6,6 +6,7 @@
 
 body {
     color: yellowgreen;
+    background-color: black;
 }
 
 header {
@@ -57,3 +58,4 @@ header {
     align-items: center;
     padding: 70px 10% 0;
 }
+
