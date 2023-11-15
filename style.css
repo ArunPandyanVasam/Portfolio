@@ -6,8 +6,8 @@
 
 body {
     color: #00a2ff;
-    background-color: #ffffff
-    ;
+    height: 100vh;
+    background-color: #ffffff;
 }
 
 header {
@@ -57,7 +57,7 @@ header {
 }
 
 .home {
-    position: fixed;
+    position: relative;
     width: 100%;
     justify-content: space-between;
     height: 100vh;
@@ -96,6 +96,7 @@ header {
     font-size: 75px;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
+
 
 
 
