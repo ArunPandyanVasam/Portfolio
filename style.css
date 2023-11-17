@@ -267,7 +267,7 @@ form .input-box {
 }
 
 .field .item::placeholder {
-    color: rgba(255, 255, blue255, .3);
+    color: rgba(255, 255, 255, .3);
 }
 
 .field .error-txt {
