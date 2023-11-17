@@ -111,7 +111,7 @@ header h1 {
 .skills,
 .contact {
     position: relative;
-    margin-top: 175px;
+    margin-top: 165px;
     text-transform: uppercase;
     letter-spacing: 5px;
     text-align: center;
@@ -180,7 +180,8 @@ footer p {
     width: 90%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-gap: 10px;
     margin-bottom: 15px;
 }
