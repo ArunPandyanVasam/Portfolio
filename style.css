@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,6 +9,7 @@ body {
     width: 100%;
     min-height: 100vh;
     background-color: #ffffff;
+    font-family: Arial, sans-serif;
 }
 
 header {
@@ -16,7 +17,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 20px 5%;
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -30,7 +31,6 @@ header a {
     color: #333652;
 }
 
-
 .logo {
     position: relative;
     font-size: 25px;
@@ -38,7 +38,7 @@ header a {
     text-decoration: none;
     font-weight: 600;
     float: left;
-} 
+}
 
 .navbar {
     float: left;
@@ -47,25 +47,22 @@ header a {
 
 .navbar a {
     display: inline-block;
-    font-size: 25px;
+    font-size: 18px;
     text-decoration: none;
     font-weight: 500;
-    margin-left: 35px;
+    margin-left: 15px;
     transition: .3s;
 }
 
 header h1 {
-    font-size: 50px;
+    font-size: 30px;
     color: #05445E;
-    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .navbar a:hover {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
     color: #010100;
-    font-size: 30px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .home {
@@ -75,87 +72,99 @@ header h1 {
     height: 100vh;
     display: flex;
     align-items: center;
-    padding: 0 10% ;
-    
+    padding: 0 5%;
 }
 
 .home-content {
-    font-size: 50px;
+    font-size: 20px;
 }
 
 .reachout {
     display: flex;
     justify-content: space-between;
-    padding: 50px 0;
+    padding: 20px 0;
 }
 
-.resume, .mobile {
+.resume,
+.mobile {
     color: white;
     background-color: rgb(15, 15, 15);
     border-radius: 10px;
-    padding: 5px 25px;
+    padding: 5px 15px;
 }
 
-.resume a, .mobile a{
+.resume a,
+.mobile a {
     text-decoration: none;
     color: white;
 }
 
-.resume:hover a, .mobile:hover a{
+.resume:hover a,
+.mobile:hover a {
     color: #DB1F48;
 }
 
-.projects, .about, .skills, .contact{
+.projects,
+.about,
+.skills,
+.contact {
     position: relative;
-    margin-top: 175px;
+    margin-top: 75px;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     text-align: center;
 }
 
-.projects-heading, .about-heading, .skills-heading, .contact-heading {
+.projects-heading,
+.about-heading,
+.skills-heading,
+.contact-heading {
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 50px;
-    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+    font-size: 30px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
     background-color: #01949A;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
-.projects-heading a, .about-heading a,  .skills-heading a, .contact-heading a{
+.projects-heading a,
+.about-heading a,
+.skills-heading a,
+.contact-heading a {
     color: #DB1F48;
     text-decoration: none;
 }
 
-.projects-heading:hover a, .about-heading:hover a, .skills-heading:hover a, .contact-heading:hover a{
-    font-size: 60px;
+.projects-heading:hover a,
+.about-heading:hover a,
+.skills-heading:hover a,
+.contact-heading:hover a {
+    font-size: 35px;
 }
 
 .about-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 50px 150px;
-    max-width: 700px;
+    margin: 20px 5%;
+    max-width: 100%;
 }
 
-#about-content div{
+#about-content div {
     padding: 10px;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 footer {
     background-color: #76B947;
-    width: 100%;
-    height: 150px;
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 18px;
     padding: 10px;
     line-height: 18px;
     text-align: center;
@@ -165,17 +174,15 @@ footer p {
     color: #010100;
 }
 
-
 #content {
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
     grid-gap: 10px;
     margin-bottom: 15px;
 }
-
 
 .button {
     background-color: whitesmoke;
@@ -202,48 +209,51 @@ footer p {
 
 .grid img {
     opacity: 0.8;
+    width: 100%;
+    height: auto;
 }
 
-.grid:hover img{
+.grid:hover img {
     opacity: 1;
 }
 
 .para {
     width: auto;
-    font-size: 25px;
-    margin-left: 25px;
+    font-size: 18px;
+    margin-left: 15px;
     padding: 5px;
 }
 
 h3 {
-    margin-left: 25px;
+    margin-left: 15px;
 }
 
- .contact-content {
+.contact-content {
     display: flex;
     justify-content: center;
     min-height: 100vh;
 }
 
 .contact-content h2 {
-    font-size: 40px;
-    color:#FF4500;
+    font-size: 25px;
+    color: #FF4500;
     text-align: center;
     margin-bottom: 10px;
 }
 
 .contact-content form {
-    width: 600px;
+    width: 100%;
     text-align: center;
 }
 
 form .input-box {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
-,.input-box .input-field {
-    width: 50%;
+.input-box .input-field {
+    width: 48%;
 }
 
 .field .item {
@@ -266,11 +276,12 @@ form .input-box {
     font-size: 15px;
     color: #DB1F48;
     text-align: left;
-    margin: -5x 0 10px;
+    margin: -5px 0 10px;
     display: none;
 }
 
 form .textarea-field .item {
+    width: 100%;
     resize: none;
 }
 
@@ -279,7 +290,7 @@ form .textarea-field .error-txt {
 }
 
 form button {
-    padding: 12px 32px;
+    padding: 12px 20px;
     background: burlywood;
     border: none;
     outline: none;
@@ -298,9 +309,5 @@ form button:hover {
 }
 
 #contact-content {
-    background-color: #EFEBE0;
-    height: 600px;
-    padding: 25px;
-    border-radius: 10px;
+    background-color: #EFEBE0
 }
-
