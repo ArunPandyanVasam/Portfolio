@@ -148,6 +148,7 @@ header h1 {
 
 footer {
     background-color: #76B947;
+    width: 100%;
     height: 150px;
     display: flex;
     flex-direction: column;
