@@ -62,7 +62,8 @@ header h1 {
 
 .navbar a:hover {
     color: #010100;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
 .home {
@@ -76,7 +77,7 @@ header h1 {
 }
 
 .home-content {
-    font-size: 20px;
+    font-size: 50px;
 }
 
 .reachout {
@@ -109,9 +110,9 @@ header h1 {
 .skills,
 .contact {
     position: relative;
-    margin-top: 75px;
+    margin-top: 175px;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     text-align: center;
 }
 
@@ -123,10 +124,10 @@ header h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 30px;
+    font-size: 50px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
     background-color: #01949A;
-    padding: 30px 0;
+    padding: 50px 0;
 }
 
 .projects-heading a,
@@ -141,7 +142,7 @@ header h1 {
 .about-heading:hover a,
 .skills-heading:hover a,
 .contact-heading:hover a {
-    font-size: 35px;
+    font-size: 60px;
 }
 
 .about-content {
@@ -156,6 +157,7 @@ header h1 {
     padding: 10px;
     font-size: 18px;
 }
+
 
 footer {
     background-color: #76B947;
@@ -178,8 +180,8 @@ footer p {
     width: 90%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-gap: 10px;
     margin-bottom: 15px;
 }
@@ -222,10 +224,6 @@ footer p {
     font-size: 18px;
     margin-left: 15px;
     padding: 5px;
-}
-
-h3 {
-    margin-left: 15px;
 }
 
 .contact-content {
@@ -309,5 +307,8 @@ form button:hover {
 }
 
 #contact-content {
-    background-color: #EFEBE0
+    background-color: #EFEBE0;
+    height: 600px;
+    padding: 25px;
+    border-radius: 10px;
 }
