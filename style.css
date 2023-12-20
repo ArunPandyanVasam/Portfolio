@@ -15,6 +15,29 @@ body {
     font-size: 20px;
 }
 
+/* Default styles for profile-image */
+.profile-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto;   /* Maintain aspect ratio */
+    display: block; /* Remove default inline display for images */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+/* Responsive styles using media queries */
+@media only screen and (min-width: 600px) {
+    /* Adjust styles for screens with a width of 600 pixels or more */
+    .profile-image {
+        max-width: 50%; /* Example: Image takes up 50% of the container on larger screens */
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* Adjust styles for screens with a width of 768 pixels or more */
+    .profile-image {
+        max-width: 40%; /* Example: Image takes up 40% of the container on even larger screens */
+    }
+}
+
 h1 a {
     text-decoration: none;
 }
