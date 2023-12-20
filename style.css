@@ -248,7 +248,7 @@ footer p {
     text-align: center;
 }
 
-form .input-box {
+.input-box {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -266,12 +266,12 @@ form .input-box {
     outline: none;
     border-radius: 6px;
     font-size: 1rem;
-    color: #DB1F48;
+    color: #333;
     margin: 12px 0;
 }
 
 .field .item::placeholder {
-    color: rgba(255, 255, 255, .3);
+    color: rgba(0, 0, 0, 0.3);
 }
 
 .field .error-txt {
@@ -282,12 +282,12 @@ form .input-box {
     display: none;
 }
 
-form .textarea-field .item {
+.form .textarea-field .item {
     width: 100%;
     resize: none;
 }
 
-form .textarea-field .error-txt {
+.form .textarea-field .error-txt {
     margin-top: -10px;
 }
 
@@ -302,5 +302,5 @@ form button {
     color: black;
     letter-spacing: 1px;
     font-weight: 600;
-    cursor:pointer;
+    cursor: pointer;
 }
