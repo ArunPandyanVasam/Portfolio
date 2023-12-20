@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-.profile-image {
-    height: auto;
-}
+
 
 body {
     color: black;
@@ -15,6 +13,10 @@ body {
     background-color: #ffffff;
     font-family: Arial, sans-serif;
     font-size: 16px;
+}
+
+h1 a {
+    text-decoration: none;
 }
 
 header {
@@ -115,7 +117,7 @@ header h1 {
 .skills,
 .contact {
     position: relative;
-    margin-top: 165px;
+    margin-top: 150px;
     text-transform: uppercase;
     letter-spacing: 5px;
     text-align: center;
@@ -129,7 +131,7 @@ header h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 5rem;
+    font-size: 2.5rem;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
     background-color: #01949A;
     padding: 50px 0;
@@ -147,7 +149,7 @@ header h1 {
 .about-heading:hover a,
 .skills-heading:hover a,
 .contact-heading:hover a {
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .about-content {
@@ -165,14 +167,13 @@ header h1 {
 
 footer {
     background-color: #76B947;
-    height: 100px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 1rem;
     padding: 10px;
-    line-height: 18px;
     text-align: center;
 }
 
