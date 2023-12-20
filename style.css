@@ -7,12 +7,12 @@
 
 
 body {
-    color: black;
+    color: #010100;
     width: 100%;
     min-height: 100vh;
     background-color: #ffffff;
     font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 h1 a {
@@ -62,8 +62,7 @@ header a {
 }
 
 header h1 {
-    font-size: 1.25rem;
-    color: #05445E;
+    font-size: 1.75rem;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
@@ -133,7 +132,7 @@ header h1 {
     transform: translate(-50%, -50%);
     font-size: 2.5rem;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.9);
-    background-color: #01949A;
+    background-color: #E9EAEC;
     padding: 50px 0;
 }
 
@@ -166,7 +165,7 @@ header h1 {
 }
 
 footer {
-    background-color: #76B947;
+    background-color: #189AB4;
     height: 150px;
     display: flex;
     flex-direction: column;
@@ -178,7 +177,7 @@ footer {
 }
 
 footer p {
-    color: #010100;
+    color: #000000;
 }
 
 #content {
